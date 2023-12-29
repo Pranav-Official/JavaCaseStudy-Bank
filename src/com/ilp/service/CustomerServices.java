@@ -93,7 +93,7 @@ public class CustomerServices {
 			for (Services service : serviceList) {
 				System.out.print(service.getServiceName() + ",");
 			}
-
+			System.out.println("\n");
 		}
 	}
 }
